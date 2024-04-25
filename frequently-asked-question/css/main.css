@@ -1,0 +1,88 @@
+@media (max-width: 1028px) {
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    header nav {
+        background-color: rgb(18, 118, 129) !important; 
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .faq-section {
+        margin-top: 9.7vh;
+        padding: 5vh 3vh;
+    }
+
+    .faq-section > p {
+        font-size: 2.5vh;
+        padding: 1vh 0vh;
+    }
+
+    footer {
+        color: white;
+        background-color: rgb(18, 118, 129);
+        padding: 3vh 0vh;
+    }
+    
+    footer > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contact-service {
+        flex-direction: column;
+    }
+
+    .contact-service > div > i {
+        font-size: 4vh;
+    }
+    
+    .copyright-text {
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 1028px) {
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    header nav {
+        background-color: rgb(18, 118, 129) !important; 
+    }
+    
+    .nav-link {
+        color: white !important;
+    }
+    
+    .faq-section {
+        margin-top: 9.7vh;
+        padding: 2vh 0vh;
+    }
+
+    .faq-section > p {
+        font-size: 3vh;
+    }
+    
+    footer {
+        color: white;
+        background-color: rgb(18, 118, 129);
+        padding: 3vh 0vh;
+    }
+    
+    footer > a {
+        color: white;
+        text-decoration: none;
+    }   
+
+    .contact-service > div > i {
+        font-size: 4vh;
+    }
+    
+    .copyright-text {
+        font-size: 2vh;
+    }
+}
