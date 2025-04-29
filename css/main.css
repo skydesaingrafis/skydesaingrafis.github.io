@@ -1,0 +1,258 @@
+@media (max-width: 1028px) {
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+
+    header nav {
+        background-color: rgb(18, 118, 129) !important; 
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .slogan-section {
+        background-image: url(/image/slogan-bg-mobile.png);
+        background-size: cover;
+        background-position: center;
+        margin-top: 9.7vh;
+        padding: 15vh 0vh;
+        color: white;
+    }
+
+    .reason-section {
+        padding: 10vh 0vh;
+    }
+
+    .reason-section > p {
+        font-size: 1.7vh;
+        margin-bottom: -0.5vh;
+    }
+
+    .reason-section > h1 {
+        font-size: 4.5vh;
+    }
+
+    .reason-parts {
+        flex-direction: column;
+    }
+
+    .reason-parts > div {
+        margin-top: 2vh;
+    }
+
+    .reason-parts-images{
+        max-width: 30%;
+        height: auto;
+    }
+
+    .reason-parts-1 > h2, .reason-parts-2 > h2, .reason-parts-3 > h2 {
+        font-size: 3vh;
+    }
+
+    .portfolio-section {
+        padding: 2vh 0vh;
+        background-image: linear-gradient(to bottom, rgb(18,118,129), rgb(117,159,164));
+        flex-direction: column;
+    }
+
+    .portfolio-text {
+        margin: 2vh 0vh 0vh 0vh;
+    }
+
+    .portfolio-text > h2{
+        font-size: 4.5vh;
+        color: white;
+        margin-left: 2vh;
+    }
+
+    .portfolio-text > a {
+        text-decoration: none;
+        font-size: 3vh;
+        color: black;
+        padding: 1vh 2.5vh;
+        background-color: #FFD42A;
+        border-radius: 30px;
+        margin-left: 2vh;
+    }
+
+    .portfolio-images {
+        margin-bottom: -2vh !important;
+        text-align: center;
+    }
+
+    .portfolio-images > img{
+        max-width: 70%;
+        height: auto;
+    }
+
+    .price-section {
+        padding: 10vh 0vh;
+    }
+
+    .price-section > img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .price-section > p {
+        font-size: 1.5vh;
+    }
+
+    footer {
+        color: white;
+        background-color: rgb(18, 118, 129);
+        padding: 3vh 0vh;
+    }
+    
+    footer > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sub-footer {
+        flex-direction: column;
+    }
+
+    .logo-watermark > p{
+        margin-bottom: 0.5vh;
+    }
+
+    .logo-watermark > img {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .social-medias {
+        padding-top: 4vh;
+    }
+
+    .social-medias > div{
+        margin-left: 2vh;
+        margin-bottom: -1.5vh;
+    }
+
+    .social-medias > div > i {
+        font-size: 4vh !important;
+        margin-left: 5vh;
+        margin-right: 1.5vh;
+    }
+
+    .contact-service > div > i {
+        font-size: 4vh;
+    }
+    
+    .copyright-text {
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 1028px) {
+    body {
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    header nav {
+        background-color: rgb(18, 118, 129) !important; 
+    }
+    
+    .nav-link {
+        color: white !important;
+    }
+    
+    .slogan-section {
+        background-image: url(/image/slogan-bg.png);
+        background-size: cover;
+        margin-top: 9vh;
+        padding: 35vh 0vh;
+        color: white;
+    }
+
+    .reason-section > p {
+        margin-bottom: -0.3vh;
+        font-size: 2.7vh;
+    }
+    
+    .reason-section {
+        padding: 10vh 0vh;
+    }
+    
+    .reason-parts {
+        padding-top: 4vh;
+    }
+    
+    .reason-parts-images {
+        max-width: 40%;
+        height: auto;
+    }
+    
+    .portfolio-section {
+        padding: 7vh 0vh;
+        background-image: linear-gradient(to right, rgb(18,118,129), rgb(117,159,164));
+    }
+
+    .portfolio-text{
+        margin: 5vh 0vh 0vh 15vh;
+    }
+
+    .portfolio-text > h2{
+        font-size: 7vh;
+        color: white;
+    }
+
+    .portfolio-text > a{
+        text-decoration: none;
+        font-size: 4vh;
+        color: black;
+        padding: 1vh 2.5vh;
+        background-color: #FFD42A;
+        border-radius: 30px;
+    }
+
+    .portfolio-images {
+        margin-bottom: -7vh !important;
+    }
+
+    .portfolio-images > img{
+        max-width: 70%;
+        height: auto;
+    }
+
+    .price-section {
+        padding: 10vh 0vh;
+    }
+
+    .price-section > img {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    footer {
+        color: white;
+        background-color: rgb(18, 118, 129);
+        padding: 3vh 0vh;
+    }
+
+    .logo-watermark > p{
+        margin-bottom: 0.5vh;
+    }
+
+    .logo-watermark > img {
+        max-width: 25%;
+        height: auto;
+    }
+    
+    footer > a {
+        color: white;
+        text-decoration: none;
+    }   
+
+    .social-medias > div > i {
+        font-size: 4vh !important;
+        margin-right: 1vh;
+    }
+    
+    .copyright-text {
+        font-size: 2vh;
+    }
+}
